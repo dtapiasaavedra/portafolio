@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i');
 
+  
     .container1 {
        display: block;
         margin: 0;
@@ -49,34 +50,85 @@
       text-decoration: none;
    }
 
-  
+  h3 {
+    font-family: 'Crimson Text';
+    font-style: semi-bold;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: Left;
+  }
+
+  .descripcion {
+
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: left;
+    paragraph-spacing: 5px
+    font-style: allcaps;
+  }
+
+  .parrafo {
+  font-family: 'Crimson Text';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: left;
+  }
+
+
 /* Posición de nombre y menú superior */
-    
-     .nombre {
-    position: fixed;
-    display: block;
-    margin-bottom: 2em;
-    margin-top: 0.3em;
-     }
-  
-    .menu{
-    display: inline-block;
-    position: left;
-
- }
-
    
+     .nombre {
+    display: flex;
+    position: sticky;
+    background-color: white;
 
+     }  
 
+    .menu{
+   position: fixed;
+   margin-left: 60%;
+   background-color: white;
+   }
+  
+   .dario-tapia {
+      position: fixed;
+      background-color: white;
+   }
 
-    .main {
-    display: block;
-    padding-top: 6em;
+  .main {
+  display: block;
+  padding-top: 6em;
      }
 
   /*  p{
         font-size: 35px;
         font-family: Roboto;
         font-weight: 400;
-    }
-*/
+ 
+ */
+ 
+ /* Posición de nombre y menú superior */   
+
+.texto {
+display: block;
+margin-left: 1em;
+margin-right: 1em;
+margin-top: 2em;
+border-top: 1px solid #ccc;
+}
+
+ /* Imagen */    
+ 
+ img {
+
+width: 90%;
+height: auto;
+padding: 1em;
+ }
+
+
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i'); 
