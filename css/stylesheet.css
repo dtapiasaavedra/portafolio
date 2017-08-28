@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i');
+
+    .container1 {
+       display: block;
+        margin: 0;
+    }
+
+    .menu  li {   
+        list-style: none; 
+    }
+
+/*Estilos de Texto*/
+    h1 {
+        font-family: 'Crimson Text';
+        font-style: bold;
+        font-size: 28px;
+        text-align: left;
+        letter-spacing: -2%;
+        text-decoration-style: none;
+    }
+
+    .menu a {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: right;
+        text-decoration-style: none;
+        text-decoration: none;
+        fill: solid;
+        font-color: #000000;
+    }
+   
+
+    
+   #Proyectos h3 {
+      color: inherit;
+      font-family: 'Crimson Text';
+      font-weight: 600;
+      font-size: 2em;
+      line-height: 1em;
+      text-align: center;
+      text-decoration-style: none;
+      text-decoration: none;
+   }
+    #Proyectos a {
+      color: inherit;
+      text-decoration-style: none;
+      text-decoration: none;
+   }
+
+  
+/* Posición de nombre y menú superior */
+    
+     .nombre {
+    position: fixed;
+    display: block;
+    margin-bottom: 2em;
+    margin-top: 0.3em;
+     }
+  
+    .menu{
+    display: inline-block;
+    position: left;
+
+ }
+
+   
+
+
+
+    .main {
+    display: block;
+    padding-top: 6em;
+     }
+
+  /*  p{
+        font-size: 35px;
+        font-family: Roboto;
+        font-weight: 400;
+    }
+*/
