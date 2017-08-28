@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i');
 
-  
+  body {
+
+    margin: 0;
+  }
     .container1 {
        display: block;
         margin: 0;
@@ -10,7 +13,36 @@
         list-style: none; 
     }
 
+
 /*Estilos de Texto*/
+.container1 {
+margin-left: 5%;
+margin-right: 5%;
+}
+
+
+
+
+/*Estilos de Texto*/
+   
+  h3 {
+
+    margin-bottom: 0em;
+  }
+
+ .descripcion p {
+  margin-top: 7px;
+  margin-bottom: 7px;
+ }
+
+
+
+  p {
+    margin:0px;
+    padding: 0px;
+  }
+
+
     h1 {
         font-family: 'Crimson Text';
         font-style: bold;
@@ -18,6 +50,7 @@
         text-align: left;
         letter-spacing: -2%;
         text-decoration-style: none;
+        margin-left: 15px;
     }
 
     .menu a {
@@ -26,23 +59,26 @@
         font-size: 18px;
         line-height: 21px;
         text-align: right;
-        text-decoration-style: none;
         text-decoration: none;
-        fill: solid;
-        font-color: #000000;
+        color: #000000;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
     }
    
 
     
    #Proyectos h3 {
       color: inherit;
-      font-family: 'Crimson Text';
-      font-weight: 600;
-      font-size: 2em;
+     /* font-family: 'Crimson Text';*/
+      font-family: 'Roboto';
+      font-weight: 400;
+     /*  font-size: 2em;*/
+     font-size: 2em;
       line-height: 1em;
       text-align: center;
       text-decoration-style: none;
       text-decoration: none;
+
    }
     #Proyectos a {
       color: inherit;
@@ -56,18 +92,16 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 22px;
-    text-align: Left;
+    text-align: left;
   }
 
   .descripcion {
 
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
     text-align: left;
-    paragraph-spacing: 5px
-    font-style: allcaps;
   }
 
   .parrafo {
@@ -76,24 +110,54 @@
   font-size: 16px;
   line-height: 22px;
   text-align: left;
+  padding-top: 6px;
   }
 
+  .tituloreproduccion {
+ font-family: 'Crimson Text';
+ font-weight:400;
+ font-size: 16px;
+ line-height: 22px;
+}
+
+.bajada {
+   font-family: 'Crimson Text';
+   font-style: italic;
+   font-size: 16px;
+   line-height: 22px;
+   font-weight: 400;
+}
 
 /* Posición de nombre y menú superior */
    
-     .nombre {
-    display: flex;
-    position: sticky;
-    background-color: white;
-
+ .nombre {
+     display: flex;
+     position: fixed;
+     background-color: white;
+     height: 72px;
+     width: 100%;
+     top: 0px;
      }  
 
-    .menu{
+    .menu {
      position: fixed;
-     margin-left: 60%;
+     margin-left: 50%;
      background-color: white;
+     display: flex;
+     flex-direction: row;
    }
   
+   .menu ul {
+    display: flex;
+    flex-direction: row;
+   }
+
+  .menu li {
+
+margin-right: 10px;
+margin-left: 10px;
+  }  
+   
    .dario-tapia {
      position: fixed;
      background-color: white;
@@ -115,20 +179,73 @@
 
 .texto {
    display: block;
-   margin-left: 1em;
-   margin-right: 1em;
-   margin-top: 2em;
+   /*margin-left: 1em;
+   margin-right: 1em;*/
+   margin-top: 1em;
    border-top: 1px solid #ccc;
 }
 
- /* Imagen */    
- 
- img {
+.menu li {
+  margin-top: 0.5em;
+}
 
-  width: 90%;
+.menu ul {
+  margin-top: 1em;
+}
+
+ /* Imagen */    
+  img {
+  width: 100%;
   height: auto;
-  padding: 1em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
  }
 
+/* Div para subir*/
+#arriba {
+ display: block;
+ height: 50px;
+ width: 50px;
+ background-color: rgba(255,0,0,0.5);
+ position: fixed;
+ bottom: 100px;
+ right: 0px;
+}
+
+.titulodeproyecto {
+
+  padding-top: 2em;
+
+}
+
+.texto h3 {
+  padding-top: 3em;
+}
+
+/*Menú de Proyectos*/
+
+#Proyectos h3 {
+display: block;
+margin-top: 1.3em;
+text-align: center;
+color: white; 
+font-size: 1.5em;
+}
+/*Menú de Proyectos*/
+
+#Proyectos {
+background-color: black;
+height: 700px;
+}
+.main p {
+ margin-top: 0.5ex;
+ color: #efefef; 
+ text-align: center;
+ margin-bottom: 1.5em;
+}
+
+.titulo-de-proyecto h3 {
+  padding-bottom: 1em;
+}
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i'); 
