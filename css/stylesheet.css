@@ -73,7 +73,6 @@ margin-right: 5%;
       font-family: 'Roboto';
       font-weight: 400;
      /*  font-size: 2em;*/
-     font-size: 2em;
       line-height: 1em;
       text-align: center;
       text-decoration-style: none;
@@ -126,6 +125,77 @@ margin-right: 5%;
    font-size: 16px;
    line-height: 22px;
    font-weight: 400;
+}
+
+
+/*página about */
+
+.parrafoabout {
+
+font-family: 'Crimson Text';
+font-style: 'Regular';
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+text-align: left:;
+}
+
+.titulo-contacto h3 {
+
+font-family: 'Roboto';
+font-style: 'Bold';
+font-size: 14px;
+line-height: 16px;
+text-align: left;
+}
+
+
+.correspondiente p {
+
+font-family: 'Crimson Text';
+font-style: 'Regular';
+font-weight: 400;
+font-size: 24px;
+line-height: 33px;
+text-align: Left
+}
+
+/* Estilos de Footer*/
+
+#derechos {
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 600i;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+}
+
+#Sitiodel {
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+text-underline-position: auto;
+}
+
+#nombrefooter{
+font-family: 'Crimson Text';
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
+}
+
+#anoo {
+font-family: 'Crimson Text';
+font-style: italic;
+font-weight: 600;
+font-size: 22px;
+line-height: 27px;
+text-align: center;
 }
 
 /* Posición de nombre y menú superior */
@@ -229,7 +299,7 @@ display: block;
 margin-top: 1.3em;
 text-align: center;
 color: white; 
-font-size: 1.5em;
+font-size: 1.3em;
 }
 /*Menú de Proyectos*/
 
@@ -247,5 +317,39 @@ height: 700px;
 .titulo-de-proyecto h3 {
   padding-bottom: 1em;
 }
+
+/*Posición footer*/
+
+.contacto {
+display: block;
+padding-bottom: 4em;
+padding-top: 3em;
+}
+
+.contacto h3 {
+ padding-bottom: 1em; 
+} 
+
+footer {
+display: block;
+border-top: 1px solid #000;
+padding-top: 2em;
+padding-bottom: 2em;
+}
+
+.about {
+display: block;
+padding-top: 110px; 
+}
+
+.about h3 {
+font-family: 'Crimson Text';
+font-style: 'Regular';
+font-weight: 400;
+font-size: 22px;
+line-height: 30px;
+text-align: left:;
+}
+
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i'); 
