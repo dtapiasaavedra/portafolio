@@ -12,7 +12,11 @@
     .menu  li {   
         list-style: none; 
     }
-
+  
+  .dario-tapia a {
+text-decoration: none;  
+color: #000;
+  }
 
 /*Estilos de Texto*/
 .container1 {
@@ -211,7 +215,8 @@ text-align: center;
 
     .menu {
      position: fixed;
-     margin-left: 50%;
+     /*margin-left: 50%;*/
+     right:8%;
      background-color: white;
      display: flex;
      flex-direction: row;
@@ -224,7 +229,7 @@ text-align: center;
 
   .menu li {
 
-margin-right: 10px;
+margin-right: 0px;
 margin-left: 10px;
   }  
    
@@ -261,6 +266,7 @@ margin-left: 10px;
 
 .menu ul {
   margin-top: 1em;
+  padding: 0;
 }
 
  /* Imagen */    
@@ -350,6 +356,41 @@ font-size: 22px;
 line-height: 30px;
 text-align: left:;
 }
+
+/* Estilos de artwirk*/
+
+.container {
+margin-left: 5%;
+margin-right: 5%;
+}
+
+/* Responsivo para escritorio */
+@media  (min-width: 1024px) and (max-width: 2066px){
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,600i,700,700i|Roboto:400,400i,500,500i,700,700i,900,900i'); 
