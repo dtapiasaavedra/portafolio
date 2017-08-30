@@ -291,7 +291,7 @@ text-align: center;
  display: block;
  height: 50px;
  width: 50px;
- background-color: rgba(255,0,0,0.5);
+ background-color: rgba(255,255,255,0.5);
  position: fixed;
  bottom: 100px;
  right: 0px;
