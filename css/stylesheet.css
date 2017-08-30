@@ -58,6 +58,7 @@ margin-right: 5%;
         text-decoration-style: none;
         margin-left: 15px;
         margin-bottom: 0px;
+        margin-top: 0px;
     }
 
     .menu a {
@@ -214,11 +215,14 @@ text-align: center;
      height: 72px;
      width: 100%;
      top: 0px;
+     align-items: center;
+
      }  
 
     .menu {
-     position: fixed;
+     /*position: fixed;*/
      /*margin-left: 50%;*/
+     position: absolute;
      right:8%;
      background-color: white;
      display: flex;
@@ -237,7 +241,7 @@ margin-left: 10px;
   }  
    
    .dario-tapia {
-     position: fixed;
+     /*position: fixed;*/
      background-color: white;
    }
 
@@ -259,7 +263,7 @@ margin-left: 10px;
    display: block;
    /*margin-left: 1em;
    margin-right: 1em;*/
-   margin-top: 1em;
+   margin-top: 0.7em;
    border-top: 1px solid #ccc;
 }
 
