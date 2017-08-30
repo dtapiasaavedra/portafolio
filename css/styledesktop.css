@@ -1,0 +1,8 @@
+/* Responsivo para escritorio */
+@media (min-width: 768px) and (max-width: 2066px){
+
+.cointainer1 {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+}
