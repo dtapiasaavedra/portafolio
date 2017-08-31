@@ -99,7 +99,7 @@ margin-right: 5%;
     font-family: 'Crimson Text';
     font-style: semi-bold;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 22px;
     text-align: left;
   }
@@ -175,8 +175,8 @@ text-align: left;
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 600i;
-font-size: 22px;
-line-height: 27px;
+font-size: 18px;
+line-height: 23px;
 text-align: center;
 }
 
@@ -184,8 +184,8 @@ text-align: center;
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 400;
-font-size: 22px;
-line-height: 27px;
+font-size: 18px;
+line-height: 23px;
 text-align: center;
 text-underline-position: auto;
 }
@@ -193,19 +193,56 @@ text-underline-position: auto;
 #nombrefooter{
 font-family: 'Crimson Text';
 font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+font-size: 18px;
+line-height: 23px;
 text-align: center;
 }
 
 #anoo {
 font-family: 'Crimson Text';
-font-style: italic;
+font-style: normal;
 font-weight: 600;
-font-size: 22px;
-line-height: 27px;
+font-size: 18px;
+line-height: 23px;
 text-align: center;
 }
+
+.dibujos h2 {
+font-family: 'Crimson Text';
+font-weight: 600;
+font-size: 20px;
+}
+
+.grabados h2 {
+padding-top: 40px;
+border-top: 0.2px solid #000;
+font-family: 'Crimson Text';
+font-weight: 600;
+font-size: 20px;
+ 
+}   
+
+.dibujos span{
+    display: block;
+font-family: 'Crimson Text';
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+.grabados span{
+    display: block;
+font-family: 'Crimson Text';
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+
+
 
 /* Posición de nombre y menú superior */
    
@@ -374,7 +411,17 @@ margin-left: 5%;
 margin-right: 5%;
 }
 
+.dibujos {
+  display: block;
+  margin-top: 30%;
 }
+
+
+}
+
+
+
+
 
 
 
@@ -478,8 +525,8 @@ margin-right: 5%;
     font-family: 'Crimson Text';
     font-style: semi-bold;
     font-weight: 600;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 32px;
+    line-height: 34px;
     text-align: left;
   }
 
@@ -495,8 +542,8 @@ margin-right: 5%;
   .parrafo {
   font-family: 'Crimson Text';
   font-weight: 400;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 25px;
   text-align: left;
   padding-top: 6px;
   }
@@ -544,8 +591,8 @@ text-align: left;
 font-family: 'Crimson Text';
 font-style: 'Regular';
 font-weight: 400;
-font-size: 24px;
-line-height: 33px;
+font-size: 18px;
+line-height: 26px;
 text-align: left;
 }
 
@@ -555,7 +602,7 @@ text-align: left;
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 600i;
-font-size: 22px;
+font-size: 18px;
 line-height: 27px;
 text-align: center;
 }
@@ -564,8 +611,8 @@ text-align: center;
 font-family: 'Crimson Text';
 font-style: italic;
 font-weight: 400;
-font-size: 22px;
-line-height: 27px;
+font-size: 18px;
+line-height: 23px;
 text-align: center;
 text-underline-position: auto;
 }
@@ -573,19 +620,53 @@ text-underline-position: auto;
 #nombrefooter{
 font-family: 'Crimson Text';
 font-weight: 600;
-font-size: 22px;
+font-size: 18px;
 line-height: 27px;
 text-align: center;
 }
 
 #anoo {
 font-family: 'Crimson Text';
-font-style: italic;
+font-style: normal;
 font-weight: 600;
-font-size: 22px;
+font-size: 18px;
 line-height: 27px;
 text-align: center;
 }
+
+/*Estilos Artworj*/ 
+ .dibujos h2 {
+font-family: 'Crimson Text';
+font-weight: 600;
+font-size: 28px;
+
+}
+
+.grabados h2 {
+padding-top: 40px;
+border-top: 0.2px solid #000;
+font-family: 'Crimson Text';
+font-weight: 600;
+font-size: 28px;
+}   
+
+.dibujos span {
+  display: block;
+  font-family: 'Crimson Text';
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+.grabados span {
+  display: block;
+  font-family: 'Crimson Text';
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+}
+
+
 
 /* Posición de nombre y menú superior */
    
@@ -693,7 +774,7 @@ display: block;
 margin-top: 1.3em;
 text-align: center;
 color: white; 
-font-size: 1.3em;
+font-size: 1.6em;
 }
 /*Menú de Proyectos*/
 
@@ -753,7 +834,10 @@ margin-right: 5%;
 }
 
 
-
+.dibujos {
+  display: block;
+  margin-top: 20%;
+}
 
 
 }
